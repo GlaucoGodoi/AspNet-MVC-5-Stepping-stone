@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DryRun", "DryRun\DryRun.csproj", "{1DC62EA8-87BF-4CFF-958C-43835EF3CF6F}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{7A51E131-2939-4D64-BF6A-2C0AD036145F}"
-	ProjectSection(SolutionItems) = preProject
-		..\Presentation\AspNetMVC-StepStone.pptx = ..\Presentation\AspNetMVC-StepStone.pptx
-	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
