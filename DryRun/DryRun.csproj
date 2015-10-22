@@ -247,6 +247,7 @@
     <Content Include="CodeTemplates\MvcView\ListGreen.cs.t4" />
     <Content Include="Content\toastr.scss" />
     <Content Include="Content\toastr.less" />
+    <Content Include="PPT_Presentation\AspNetMVC-StepStone.pptx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
