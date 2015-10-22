@@ -1,0 +1,32 @@
+﻿@using DryRun.Infrastructure.Extensions
+
+@if (TempData.GetAlerts().Any())
+{
+    <script type="text/javascript">
+        $(function() {
+            @foreach (var alert in TempData.GetAlerts())
+			{
+            <text>
+            toastr.options.positionClass = 'toast-bottom-left';
+            var message = '@alert.Message.Replace("'", "\\'")';
+            var messageType = '@alert.AlertClass';
+            switch (messageType)
+            {
+                case "alert-success":
+                    toastr.success(message);
+                    break;
+                case "alert-info":
+                    toastr.info(message);
+                    break;
+                case "alert-warning":
+                    toastr.warning(message);
+                    break;
+                case "alert-danger":
+                    toastr.error(message);
+                    break;
+            }
+            </text>
+        }
+        });
+    </script>
+}

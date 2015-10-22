@@ -1,0 +1,12 @@
+﻿@model DateTime?
+<div class="input-group date">
+    @Html.TextBox("", Model, new {@class = "form-control"})
+    <div class="input-group-addon">
+        <span class="glyphicon glyphicon-calendar"></span>
+    </div>
+</div>
+<script type="text/javascript">
+    window.onload = function() {
+        $('.input-group.date').datepicker({ autoclose: true, format: 'yyyy/mm/dd' });
+    };
+</script>
